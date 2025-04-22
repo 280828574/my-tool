@@ -1,12 +1,19 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/home",
+    "pages/time"
   ],
   "window": {
+    "navigationBarTitleText": "雀友发牌机",
+    "navigationBarBackgroundColor": "#FFFFFF",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "backgroundColor": "#FFFFFF"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "permission": {
+    "scope.bluetooth": {
+      "desc": "需要获取您的蓝牙授权以连接蓝牙设备。"
+    }
   },
   "usingComponents": {}
 }

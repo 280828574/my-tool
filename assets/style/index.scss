@@ -1,0 +1,280 @@
+@import '@/uni.scss';
+
+.no-padding {
+  padding: 0rpx !important;
+}
+
+div:focus {
+  outline: none;
+}
+
+.block {
+  display: block;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ' ';
+    clear: both;
+    height: 0;
+  }
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.ofh {
+  overflow: hidden;
+}
+.ofa {
+  overflow: auto;
+}
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
+}
+
+.curp {
+  cursor: pointer;
+}
+.fwb {
+  font-weight: bold;
+}
+.text-un {
+  text-decoration: underline;
+}
+.ccyc-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ccyc-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.ccyc-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.flex-jz {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.flex-czjz {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.flex-spjz {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.flex-zy {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.flex-zyjd {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.flex-zyjx {
+  display: flex;
+  display: -webkit-flex;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.flex-spjy {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
+.sg-ma-10 {
+  margin: 10rpx;
+}
+.sg-mr-10 {
+  margin-right: 10rpx;
+}
+.sg-mt-10 {
+  margin-top: 10rpx;
+}
+.sg-ml-10 {
+  margin-left: 10rpx;
+}
+.sg-mb-10 {
+  margin-bottom: 10rpx;
+}
+.sg-ma-20 {
+  margin: 20rpx;
+}
+.sg-mr-20 {
+  margin-right: 20rpx;
+}
+.sg-mt-20 {
+  margin-top: 20rpx;
+}
+.sg-ml-20 {
+  margin-left: 20rpx;
+}
+.sg-mb-20 {
+  margin-bottom: 20rpx;
+}
+.sg-ma-30 {
+  margin: 30rpx;
+}
+.sg-mr-30 {
+  margin-right: 30rpx;
+}
+.sg-mt-30 {
+  margin-top: 30rpx;
+}
+.sg-ml-30 {
+  margin-left: 30rpx;
+}
+.sg-mb-30 {
+  margin-bottom: 30rpx;
+}
+.sg-ma-40 {
+  margin: 40rpx;
+}
+.sg-mr-40 {
+  margin-right: 40rpx;
+}
+.sg-mt-40 {
+  margin-top: 40rpx;
+}
+.sg-ml-40 {
+  margin-left: 40rpx;
+}
+.sg-mb-40 {
+  margin-bottom: 40rpx;
+}
+
+.sg-pa-10 {
+  padding: 10rpx;
+}
+.sg-pr-10 {
+  padding-right: 10rpx;
+}
+.sg-pt-10 {
+  padding-top: 10rpx;
+}
+.sg-pl-10 {
+  padding-left: 10rpx;
+}
+.sg-pb-10 {
+  padding-bottom: 10rpx;
+}
+.sg-pa-20 {
+  padding: 20rpx;
+}
+.sg-pr-20 {
+  padding-right: 20rpx;
+}
+.sg-pt-20 {
+  padding-top: 20rpx;
+}
+.sg-pl-20 {
+  padding-left: 20rpx;
+}
+.sg-pb-20 {
+  padding-bottom: 20rpx;
+}
+.sg-pa-30 {
+  padding: 30rpx;
+}
+.sg-pr-30 {
+  padding-right: 30rpx;
+}
+.sg-pt-30 {
+  padding-top: 30rpx;
+}
+.sg-pl-30 {
+  padding-left: 30rpx;
+}
+.sg-pb-30 {
+  padding-bottom: 30rpx;
+}
+.sg-pa-40 {
+  padding: 40rpx;
+}
+.sg-pr-40 {
+  padding-right: 40rpx;
+}
+.sg-pt-40 {
+  padding-top: 40rpx;
+}
+.sg-pl-40 {
+  padding-left: 40rpx;
+}
+.sg-pb-40 {
+  padding-bottom: 40rpx;
+}
+.sg-color-gray {
+  color: $sg-gray;
+}
+.sg-color-error {
+  color: $sg-error;
+}
+.sg-color-main {
+  color: $sg-main;
+}
+.sg-item-border {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 24rpx;
+}
+.top-title-wrap {
+  padding: 70rpx 0 34rpx 0;
+  position: relative;
+  background: $sg-main;
+  &.my-top-title-wrap {
+    background: none;
+  }
+  .return-icon {
+    position: absolute;
+    left: 10rpx;
+    top: 75rpx;
+    color: #fff;
+    font-size: 42rpx;
+  }
+  .title {
+    text-align: center;
+    font-size: 28rpx;
+    color: #fff;
+  }
+}
