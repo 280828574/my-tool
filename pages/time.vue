@@ -30,9 +30,9 @@
     const date = new Date()
     const targetDate = new Date(date)
 
-    // 设置目标时间为明天8点
+    // 设置目标时间为明天7点30分
     targetDate.setDate(date.getDate() + 1)
-    targetDate.setHours(8, 0, 0)
+    targetDate.setHours(7, 30, 0)
 
     time.value = calculateTime(targetDate)
   })
